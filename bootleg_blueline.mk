@@ -43,14 +43,14 @@ PRODUCT_MANUFACTURER := Google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=blueline \
-    BUILD_FINGERPRINT=google/blueline/blueline:9/PQ3A.190505.002/5450365:user/release-keys \
-    PRIVATE_BUILD_DESC="blueline-user 9 PQ3A.190505.002 5450365 release-keys"
+    BUILD_FINGERPRINT=google/blueline/blueline:9/PQ3A.190801.002/5670241:user/release-keys \
+    PRIVATE_BUILD_DESC="blueline-user 9 PQ3A.190801.002 5670241 release-keys"
 
 # Shishufied builds
 BOOTLEGGERS_BUILD_TYPE := Shishufied
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.bootleggers.maintainer=stebomurkn420
+    ro.bootleggers.maintainer=retr0gr4d3
 
 $(call inherit-product-if-exists, vendor/google/blueline/blueline-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
